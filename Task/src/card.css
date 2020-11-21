@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    /* border: 5px black solid; */
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    width: 20rem;
+    height: 30rem;
+    margin: 5rem;
+    border-radius: 20px;
+    padding: 20px;  
+    background-image: url(./images/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 30rem 15rem;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 4px 4px 3px 2px gold;
+
+}
+
+.card-img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 126px;
+    margin-left: 70px;
+    border-radius: 50%;
+    transform: translate(0.625rem, -3.6rem);
+    margin-bottom: 0px;
+  }
+  .container {
+      width: 2px;
+  }
+  .text {
+      text-align: center;
+  }
+  .subtext {
+      text-align: left;
+  }
